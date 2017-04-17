@@ -1,0 +1,37 @@
+[
+  {
+    "name": "HTML &amp; CSS",
+    "id": "HTML&CSS",
+    "indivClass": "main-menu_link-one"
+  },
+  {
+    "name": "JAVASCRIPT",
+    "id": "JAVASCRIPT",
+    "indivClass": "main-menu_link-two"
+  },
+  {
+    "name": "PHP",
+    "id": "PHP",
+    "indivClass": "main-menu_link-three"
+  },
+  {
+    "name": "WORDPRESS",
+    "id": "WORDPRESS",
+    "indivClass": "main-menu_link-four"
+  },
+  {
+    "name": "DESIGN &amp; UX",
+    "id": "DESIGN&UX",
+    "indivClass": "main-menu_link-five"
+  },
+  {
+    "name": "GITHUB",
+    "id": "GITHUB",
+    "indivClass": "main-menu_link-six"
+  },
+  {
+    "name": "SEO",
+    "id": "SEO",
+    "indivClass": "main-menu_link-seven"
+  }
+]

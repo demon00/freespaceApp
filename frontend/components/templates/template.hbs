@@ -1,0 +1,19 @@
+{{# each articles as |article| }}
+
+	<article class="main__content_article">
+		<a href="{{{article.artUrl}}}" class="main__content_article-link" target="_blank">
+			<div><img src="{{{article.imgClass}}}" alt="" class="main__content_article-img"></div>
+			<div class="main__content-info">
+				<div class="main__content_article-theme"><span
+					class="main__content_article-theme--cecl main__content_article-theme--cecl-{{{article.marker}}}"></span>{{{article.theme}}}
+				</div>
+				<h5 class="main__content_article-h5">{{{article.name}}}</h5>
+				<p class="main__content_article-descr">{{{article.description}}}</p>
+				<span class="main__content_article--data">{{{article.date}}}</span>
+			</div>
+			<div class="main__content_article-views"><i class="fa fa-eye" aria-hidden="true">
+				<span class="article-views-value">{{{article.counter}}}</span></i></div>
+		</a>
+	</article>
+
+{{/each}}

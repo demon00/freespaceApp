@@ -1,0 +1,9 @@
+<ul class="header__main-menu_wrapper">
+	{{# each itemMenu as |item| }}
+
+	<li class="header__main-menu_li">
+		<a href="#!/{{item.id}}" class="header__main-menu_link {{{item.indivClass}}}">{{{item.name}}}</a>
+	</li>
+
+	{{/each}}
+</ul>

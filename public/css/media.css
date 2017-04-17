@@ -1,0 +1,181 @@
+@media screen and (max-width: 1330px) and (min-width: 320px) {
+
+ .main__content_article {
+	 margin-right: 3%;
+	 width: 30%;
+ }
+
+	.main__content_article-link {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 970px) and (min-width: 320px) {
+
+	#menu-gmbrg {
+		display: block;
+	}
+
+	.header__main-menu_wrapper {
+		height: 0;
+		background-color: #fff;
+		position: absolute;
+		left: 0;
+		top: 90px;
+		z-index: 999;
+		width: 200px;
+		overflow: hidden;
+		transition: all 0.4s;
+		-webkit-transition: all .4s;
+		-moz-transition: all .4s;
+	}
+
+	.header__main-menu_li {
+		display: block;
+		width: 100%;
+	}
+
+	.header__main-menu_link {
+		padding: 0;
+		padding-left: 40px;
+		padding-right: 100%;
+		width: 100%;
+		float: left;
+		font-size: 1em;
+		line-height: 46px;
+	}
+
+	.header__item-menu_block-title {
+		top: 60px;
+		font-size: 2.5em;
+		width: 400px;
+	}
+
+	.header__item-menu_par {
+		top: 190px;
+		font-size: 1.2em;
+	}
+
+	.main__content_article {
+		margin-right: 5%;
+		width: 44%;
+	}
+
+	.main__content_article-link {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 725px) and (min-width: 320px) {
+
+ .header__helppanel_search-wrapp {
+	 position: absolute;
+	 top: 45px;
+	 right: 0;
+	 z-index: 999;
+ }
+
+	.header__helppanel {
+		color: #1A1A1A;
+		margin-right: 0;
+	}
+
+	.header__helppanel_search {
+		height: 30px;
+	}
+
+	.js-searchShow {
+		border-radius: 0px;
+		top: 5px;
+	}
+
+}
+
+@media screen and (max-width: 600px) and (min-width: 320px) {
+
+	.main__content_article {
+		margin-right: 40px;
+		width: 92%;
+	}
+
+	.main__content_article-link {
+		width: 100%;
+	}
+
+	.header__main-menu_wrapper {
+		width: 100%;
+	}
+
+	.header__item-menu_par {
+		top: 170px;
+		font-size: 1.2em;
+	}
+
+}
+
+@media screen and (max-width: 500px) and (min-width: 320px) {
+
+	.header__item-menu_par {
+		top: 170px;
+		font-size: 1em;
+	}
+
+	.header__item-menu_block-title {
+		top: 40px;
+		font-size: 2em;
+		width: 300px;
+	}
+
+	.header__item-menu_wrapper--top {
+		top: 130px;
+	}
+
+}
+
+@media screen and (max-width: 400px) and (min-width: 320px) {
+
+	.fa {
+		display: none !important;
+	}
+
+	.header__helppanel-span {
+		display: none !important;
+	}
+
+	.header__helppanel_search {
+		width: 200px;
+		height: 28px;
+		border-radius: 0px;
+		top: 6px;
+		left:0;
+		padding-left: 0;
+	}
+
+	.header__helppanel_search-wrapp {
+		padding: 0;
+	}
+
+	.header__item-menu_wrapper--top {
+		top: 100px;
+	}
+
+	.field__filtered-articles {
+		right: 0;
+		top: 45px;
+	}
+
+	.header__item-menu_par {
+		top: 160px;
+	}
+
+	.header__item-menu_block-title {
+		top: 30px;
+		width: 270px;
+	}
+
+	.footer__contact {
+		display: none;
+	}
+}

@@ -1,0 +1,12 @@
+<div class="field__filtered-articles">
+
+	{{# each articles as |article| }}
+			<a href="{{{article.artUrl}}}" target="_blank" class="filtered__article-link">
+				<div class="filtered__article-cont">
+				<img src="{{{article.imgClass}}}" alt="{{{article.name}}}" class="filtered__article-img">
+				<span class="filtered__article-span">{{{article.name}}}</span>
+				</div>
+			</a>
+	{{/each}}
+
+</div>

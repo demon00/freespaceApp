@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Free Space</title>
+	<!--[if lt IE 9]><script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<script src="index.js" defer></script>
+</head>
+<body>
+<div class="preloader"><img class="preloader__image" src="img/loader.gif" alt="loader"></div>
+<!-- HEADER -->
+<section class="header">
+	<!-- SITEBAR -->
+	<div data-component="header" class="header__sitebar">
+		<div class="header__logo">
+			<a class="header__logo-link" href="#"></a>
+			<object class="header__logo-svg" type="image/svg+xml" data="img/logo.svg"></object>
+		</div>
+		<div class="header__helppanel">
+
+			<div data-component="search" class="header__helppanel_search-wrapp">
+				<label for="inputSearch">
+					<input type="search" placeholder="Найти на сайте" id="inputSearch" class="header__helppanel_search js-searchHide" name="searchMain">
+				</label>
+				<i class="fa fa-search" aria-hidden="true"></i> <span class="header__helppanel-span">Найти</span>
+				<div data-element="filteredArticles"></div>
+			</div>
+
+			<div class="header__helppanel_forums">
+					<a class="header__helppanel_forums-link" href="#forums"><i class="fa fa-comments" aria-hidden="true"></i> Форум</a>
+				</div>
+		</div>
+	</div>
+	<!-- MAIN MENU -->
+	<nav data-component="menu" class="header__main-menu"></nav>
+	<div data-component="menuIcon" id="menu-gmbrg">
+		<span class="line line-1"></span>
+		<span class="line line-2"></span>
+		<span class="line line-3"></span>
+	</div>
+	<!-- ITEM MENU -->
+
+	<div data-component="chapter"></div>
+
+	<div class="header__item-menu header__item-main-page">
+		<div class="header__item-menu--container">
+			<h3 class="header__item-menu_block-title">Добро пожаловать в галактику WEB</h3>
+			<p class="header__item-menu_par">Здесь вы найдёте все самые полезные статьи, фреймворки, плагины, библиотеки которые помогут вам быстрее обучаться веб-разработке, делать больше и быть более продуктивными.</p>
+		</div>
+	</div>
+</section>
+<!-- END HEADER -->
+
+<!--BLOCK -->
+<section class="main__content">
+	<div class="main__content_wrapper">
+		<div class="main__content--container">
+
+			<div data-component="filter" class="filter">
+				<div data-element="last" class="filter__item filter__item-active">ПОСЛЕДНЕЕ</div>
+				<div data-element="best" class="filter__item">ЛУЧШЕЕ</div>
+			</div>
+
+			<div data-component="articles"></div>
+
+		</div>
+	</div>
+</section>
+<!-- END BLOCK -->
+
+<!-- FOOTER -->
+<footer class="footer">
+	<div class="footer__wrapper">
+		<div class="footer__copy">&copy; 2016 <a class="footer__contact_link" href="http://freespace.xyz">freespace.xyz</a></div>
+		<div class="footer__contact">
+			<a class="footer__contact_link footer__contact_git" href="https://github.com/freespaceWeb"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
+			<a href="mailto:dmitry.chistik@gmail.com" class="footer__contact_link footer__contact_mail"><i class="fa fa-envelope-o" aria-hidden="true"></i> mail</a>
+		</div>
+	</div>
+</footer>
+<!-- END FOOTER -->
+
+<script type="text/javascript">
+  (function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+      try {
+        w.yaCounter41922004 = new Ya.Metrika({
+          id:41922004,
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true,
+          webvisor:true
+        });
+      } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+      s = d.createElement("script"),
+      f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+      d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+  })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/41922004" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+</body>
+</html>

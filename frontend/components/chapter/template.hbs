@@ -1,0 +1,12 @@
+{{# each itemChapter as |item| }}
+		<div class="header__item-menu {{{item.class}}} js-hidden">
+			<div class="header__item-menu--container">
+				<h3 class="header__item-menu_block-title header__item-menu_block-title--mt">{{{item.name}}}</h3>
+				<ul class="header__item-menu_wrapper header__item-menu_wrapper--top">
+					{{# each item.item as |i| }}
+						<li class="header__item-menu_block"><a href="{{{i.name}}}" class="header__item-menu_link {{item.classItem}}">{{{i}}}</a></li>
+					{{/each}}
+				</ul>
+			</div>
+		</div>
+{{/each}}
